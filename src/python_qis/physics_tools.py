@@ -1,10 +1,5 @@
 import math
-
-def buildVector(*args: complex)-> list[list[complex]]: 
-    v: list[list[complex]] = []
-    for i in args:
-        v.append([i])
-    return v
+from .math.qis import buildVector
 
 # Fundamental Constants (SI Units)
 H_JOULE_SEC = 6.62607015e-34       # Planck constant

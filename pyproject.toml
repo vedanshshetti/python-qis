@@ -1,6 +1,6 @@
 [project]
 name = "python-qis"
-version = "1.1.0"
+version = "1.2.0"
 description = "QIS Library for Python. (QIS is Quantum Information Science)"
 readme = "README.md"
 authors = [

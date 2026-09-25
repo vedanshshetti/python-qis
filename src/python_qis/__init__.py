@@ -1,8 +1,8 @@
-import python_qis.math_tools as math_tools
+import python_qis.math.general as general_math
+import python_qis.math.qis as qis_math
 import python_qis.cryptography_tools as cryptography_tools
 import python_qis.physics_tools as physics_tools
 
-maths = math_tools
 physics_constants: dict[str, complex | float] = {
     "H_JOULE_SEC": physics_tools.H_JOULE_SEC,
     "HBAR_JOULE_SEC": physics_tools.HBAR_JOULE_SEC,
@@ -11,4 +11,4 @@ physics_constants: dict[str, complex | float] = {
     "ELEMENTARY_CHARGE": physics_tools.ELEMENTARY_CHARGE
 }
 
-__all__ = ["maths", "cryptography_tools", "physics_constants"] # Export Everything Here
+__all__ = ["qis_math", "general_math", "cryptography_tools", "physics_constants"] # Export Everything Here
