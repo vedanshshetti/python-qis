@@ -1,0 +1,17 @@
+[project]
+name = "python-qis"
+version = "1.0.0"
+description = "QIS Library for Python. (QIS is Quantum Information Science)"
+readme = "README.md"
+authors = [
+    { name = "Vedansh Shetti", email = "vedansh.shetti@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+python-qis = "python_qis:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
